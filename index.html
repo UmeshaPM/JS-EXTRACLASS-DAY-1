@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS EXtra Class Day-1</title>
+    <style>
+        body{
+            background-color: #d7e357;
+        }
+        h1{
+            font-style: italic;
+            color: brown;
+            text-decoration: underline;
+        }
+        h3{
+            font-style: italic;
+            color: blue;
+        }
+        ul{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        b{
+            font-style: italic;
+            color: blueviolet;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        n{
+            font-style: italic;
+            color: red;
+            font-size: 20px;
+            font-weight: 600; 
+        }
+    </style>
+</head>
+<body>
+    <h1>JS Extra Class Day-1</h1>
+    <h3>Q1. What is Javascript?</h3>
+    <ul>
+        <li>Javascript is an interpreter language that means where our code is going  to run line by line.</li>
+        <li>Javascript is a scripting language that allows you to implement complex features on web pages.</li>
+        <li>JavaScript can update and make changes in both HTML and CSS.</li>
+        <li>It is a combination of both the complier and interpreter.</li>
+    </ul>
+
+
+    <h3>Q2. What is the javascript run time environment?</h3>
+    <ul>
+        <li>A runtime environment is where your program will be executed.</li>
+        <li>The JavaScript engine works inside an environment, which provides additional features to your scripts that you can use at runtime.</li>
+        <li>JavaScript code may be executed in one of two runtime environments:<br><br>
+
+            <b>1.Browser’s runtime environment:</b>
+            Front-end JavaScript applications are executed in a <b>Browser’s runtime environment</b> and have access to the window object.<br><br>
+
+            <n>2.Node runtime environment:</n>
+            Back-end JavaScript applications are executed in the <n>Node runtime environment</n> and have access to the file system, databases, and networks attached to the server.
+    </ul>
+
+
+    <h3>Q3. What is execution context?</h3>
+    <ul>
+        <li>Execution context is basically abstract concept of an environment where the Javascript code is evaluated and executed. Whenever any code is run in JavaScript, it’s run inside an execution context.</li>
+        <li>There are two kinds of Execution Context in JavaScript:</li><br><br>
+        <b>1.Global Execution Context (GEC):</b>
+        Whenever the JavaScript engine receives a script file, it first creates a default Execution Context known as the Global Execution Context (GEC).
+        The GEC is the base/default Execution Context where all JavaScript code that is not inside of a function gets executed.
+        For every JavaScript file, there can only be one GEC.<br><br>
+        <n>2.Function Execution Context (FEC):</n>
+        Whenever a function is called, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC) within the GEC to evaluate and execute the code within that function.
+        Since every function call gets its own FEC, there can be more than one FEC in the run-time of a script.
+    </ul>
+
+
+    <h3>Q4. What is javascript Engine?</h3>
+    <ul>
+        <li>JavaScript is not understandable by computer but the only browser understands JavaScript. 
+            So, we need a program to convert our JavaScript program into computer-understandable language. 
+            Hence, A JavaScript engine is a computer program that executes JavaScript code and converts it into computer understandable language.
+            </li>
+            <li>They convert the high level code into machine-readable code which lets computer to perform some specific tasks.</li>
+    </ul>
+    
+
+    <h3>Q5. What is flow of data in engine?</h3>
+    <ul>
+        <li>Data flow means flow of data between origin to destination.The environment needs to have an engine, which takes the JS code that's written in human-readable syntax and turns it into machine code.</li>
+    </ul>
+    
+
+    <script src="extraClass_1.js"></script>
+</body>
+</html>
